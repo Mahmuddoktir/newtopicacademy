@@ -1,0 +1,103 @@
+{
+    "whyUs": "Why Us",
+    "results": "Results",
+    "courses": "Courses",
+    "faq": "Questions",
+    "logoText": "Korean language and Topic educational center located in Tashkent",
+    "connectNow": "Connect now",
+    "showcase": {
+      "subtitle": "Start speaking Korean in 3 months",
+      "title": "Opportunity to study at South Korean universities with a grant up to 100%",
+      "benefit1": "We help you reach Topik level 6 in 5 months",
+      "benefit2": "Achieve a high Topik level and get the opportunity to study and work in South Korea",
+      "buttonText": "Sign up for a free class",
+      "promoText": "Sign up for the first class for free!"
+    },
+    "choose": {
+        "heading": "TOPIK academy is definitely for you if you:",
+        "button": "Yes, that's me",
+        "modalHeading": "Leave your information",
+        "modalParagraph": "Our specialists will contact you to provide you with more detailed information",
+        "item1": "You want to start speaking Korean in a short time",
+        "item2": "You want to learn Korean and build your career",
+        "item3": "You want to get a Topik certificate and win a GRANT to prestigious universities in Korea",
+        "item4": "You want to go to study and work in South Korea",
+        "item5": "You know Korean at an intermediate level and want to improve your skills",
+        "item6": "You've been studying for years but haven't achieved the result"
+    },
+    "result": {
+        "heading": "The results of our students are up to TOPIK 6"
+    },
+    "scholarship": {
+      "title": "Opportunity to win a grant up to 100% at Korean universities",
+      "gksGrantTitle": "GKS (Global Korean Scholarship) $70,000 Grant",
+      "gksGrantDescription": "The South Korean government’s scholarship program (GKS) provides foreign students with the opportunity to receive a full grant and monthly stipend for undergraduate and graduate studies in Korea, covering up to 100% of expenses",
+      "whatGKSProvidesTitle": "What the GKS Grant Provides",
+      "whatGKSProvides": {
+        "point1": "Travel expenses to and from Korea at the start and end of the program are covered.",
+        "point2": "A one-time settlement payment is provided upon arrival in Korea. Amount - 200,000 Korean won (approximately 157 USD).",
+        "point3": "Language course and university tuition fees are fully covered (only for master's and doctoral students)"
+      }
+    },
+    "success": {
+      "title": "We help our successful graduates choose a university and win a grant",
+      "description": "team will assist you in choosing a university, obtaining a visa, and winning a grant",
+      "consultationInfo": "Sign up for a free consultation to learn more!",
+      "applyButton": "Submit Application"
+    },
+    "course": {
+      "header": "Register for the course that suits you",
+      "intensiveType": "Intensive",
+      "intensiveDesc": "An intensive course for those who want to deeply master the Korean language: 6 days a week, 1.5 hours per session.",
+      "regularType": "Regular",
+      "regularDesc": "Regular Korean language classes 3 days a week, 1.5 hours per session.",
+      "individualType": "Individual",
+      "individualDesc": "Individual lessons for those who want to study with a teacher: 3 days a week, 1.5 hours per session. Flexible schedule and individual approach.",
+      "durationLabel": "Duration",
+      "registerButton": "Register",
+      "perMonth": "/month",
+      "month": "mth",
+      "modalDesc": "To reserve your place on a free lesson, leave your details and we'll get back to you shortly"
+    },
+    "advantage": {
+      "header": "Why choose TOPIK academy?",
+      "professionalTeachers": "Professional Teachers",
+      "professionalTeachersDesc": "You will be taught by teachers with over 4 years of experience and TOPIK level 6",
+      "freeCoworking": "Free Coworking Zones",
+      "freeCoworkingDesc": "We have free coworking zones for open learning, networking, and self-development",
+      "weeklyEvents": "Weekly Events",
+      "weeklyEventsDesc": "The TOPIK academy team regularly organizes additional events for its students",
+      "freeMockExams": "Free Mock Exams",
+      "freeMockExamsDesc": "Participate in monthly mock exams and track your progress",
+      "assistantCurators": "Assistant Curators",
+      "assistantCuratorsDesc": "If you struggle with your lessons, you will have a curator to assist you",
+      "consultingServices": "Consulting Services",
+      "consultingServicesDesc": "We assist our successful graduates in obtaining visas, selecting universities, and winning scholarships for studying in South Korea"
+    },
+    "faqs": {
+      "heading": "Frequently asked questions",
+      "question1": "What is the importance of learning programming?",
+      "question2": "How can one start learning a new programming language?",
+      "question3": "What are some effective study habits for programming courses?",
+      "question4": "How important is it to understand algorithms and data structures?",
+      "question5": "What role does debugging play in programming?",
+      "answer1": "Learning programming is crucial as it enables you to develop problem-solving skills, create software, and understand technology better.",
+      "answer2": "To start learning a new programming language, you should first choose a language, find quality resources or tutorials, and practice coding regularly.",
+      "answer3": "Effective study habits include setting specific goals, practicing coding consistently, joining study groups, and working on real-world projects to apply what you've learned.",
+      "answer4": "Understanding algorithms and data structures is very important as they are fundamental to solving problems efficiently and writing optimized code.",
+      "answer5": "Debugging is essential in programming as it helps identify and fix errors in the code, ensuring that the program runs correctly and efficiently."
+    },
+    "message": {
+    "heading": "Do you have any questions?",
+    "desc": "Leave your details, and we will contact you to answer all your questions.",
+    "button": "Ask a question",
+    "name": "Name",
+    "tel": "Phone number",
+    "sending": "Sending",
+    "success": "Successfully sent"
+},
+"modal": {
+      "btnFree": "Join free"
+    }
+
+}
