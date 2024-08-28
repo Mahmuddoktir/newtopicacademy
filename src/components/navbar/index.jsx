@@ -76,7 +76,7 @@ function Navbar() {
               href="tel:+998333060098"
               className="text-blue-800 hover:text-blue-400 transition-colors duration-500"
             >
-              <p>+998 (33) 306 0098</p>
+              <p>+998 (33) 306 0097</p>
               <p>{t("connectNow")}</p>
             </a>
           </li>
