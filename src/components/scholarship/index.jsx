@@ -5,7 +5,7 @@ function Scholarship(props) {
   const { t } = useTranslation();
 
   return (
-    <div className="lg:my-[2rem] my-8 lg:px-[6rem] px-6">
+    <div className="lg:my-[4rem] my-4 mb-25 lg:px-[6rem] px-12">
       <h2 className="lg:text-5xl text-2xl text-center leading-8 font-medium">
         {t("scholarship.title")}
       </h2>
@@ -14,7 +14,7 @@ function Scholarship(props) {
           <img
             src="/images/scholarship.png"
             alt="Scholarship"
-            className="w-full h-auto lg:max-w-[90%] object-contain"
+            className="w-full h-auto lg:max-w-[75%] object-contain"
           />
         </div>
         <div className="lg:w-1/2 w-full lg:my-0 my-10">
@@ -22,12 +22,12 @@ function Scholarship(props) {
             <h3 className="lg:text-3xl text-xl lg:mb-6 mb-3 font-medium">
               {t("scholarship.gksGrantTitle")}
             </h3>
-            <p className="lg:text-lg md:text-base text-sm lg:leading-8">
+            <p className="lg:text-md md:text-base text-md lg:leading-8">
               {t("scholarship.gksGrantDescription")}
             </p>
           </div>
           <div>
-            <h3 className="lg:text-3xl text-xl lg:mb-6 mb-3 font-medium">
+            <h3 className="lg:text-3xl text-xl lg:mb-6 mb-6 font-sans">
               {t("scholarship.whatGKSProvidesTitle")}
             </h3>
             <ul className="lg:text-lg md:text-base text-sm list-disc lg:leading-8 ml-4">

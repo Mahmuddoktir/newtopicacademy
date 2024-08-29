@@ -7,9 +7,9 @@ function Message(props) {
   const { sendMessage, error, loading, success } = SendingMsg();
 
   return (
-    <div className="relative bg-purple-100 md:rounded-xl lg:my-16 sm:my-8 p-8 flex flex-col md:flex-row md:items-start md:justify-between md:gap-8 xl:mx-[10rem] sm:mx-6">
+    <div className="relative bg-sky-100 md:rounded-xl lg:my-10 sm:my-8 p-8 flex flex-col md:flex-row md:items-start md:justify-between md:gap-8 lg:mx-[10rem] sm:mx-6">
       <div className="mb-8 md:mb-0 md:max-w-[450px]">
-        <h2 className="text-2xl lg:text-4xl font-semibold lg:leading-[3rem] mb-4 lg:mb-10">
+        <h2 className="text-2xl lg:text-4xl font-serif lg:leading-[3rem] mb-4 lg:mb-10">
           {t("message.heading")}
         </h2>
         <p className="text-base md:text-lg text-gray-700">
@@ -20,14 +20,14 @@ function Message(props) {
         <input
           id="name"
           type="text"
-          className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300"
+          className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-300"
           placeholder={t("message.name")}
           required
         />
         <input
           id="tel"
           type="tel"
-          className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300"
+          className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-300"
           placeholder={t("message.tel")}
           required
         />

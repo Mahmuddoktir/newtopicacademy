@@ -37,21 +37,21 @@ function Navbar() {
     <div
       id="navbar"
       ref={navbarRef}
-      className="w-full  top-5 left-1 bg-white shadow-sm"
+      className="w-full fixed top-0 left-0 h-15 bg-white shadow-md z-10"
     >
-      <div className="lg:flex lg:justify-between lg:items-center lg:px-20 px-14 py-8">
-        <div className="navbar-logo flex items-center gap-10">
+      <div className="lg:flex lg:justify-between lg:items-center lg:px-10 px-14 py-6">
+        <div className="navbar-logo flex items-center py-1 gap-7">
           <a href="logos">
-            <img src="/images/logo.png" alt="logo" className="h-15" />
+            <img src="/images/logo.png" alt="logo" className="h-13" />
           </a>
-          <p className="w-[8rem] text-sm lg:inline-block">{t("logoText")}</p>
+          <p className="w-[12rem] text-lg lg:inline-block">{t("logoText")}</p>
         </div>
 
         <ul
           className={`lg:flex lg:items-center lg:gap-10 bg-white lg:static absolute left-0 w-full lg:w-auto lg:pl-0 pl-7 transition-all duration-500 ease-in-out ${
             open
               ? "top-16 opacity-100"
-              : "top-[-490px] opacity-0 lg:opacity-100"
+              : "top-[-490px] opacity-1 lg:opacity-100"
           }`}
         >
           {list.map((item, index) => (
@@ -85,7 +85,7 @@ function Navbar() {
               onChange={handleChange}
               className="lg:text-xl text-base bg-white border border-gray-300 text-gray-800 outline-none py-1 px-5 rounded-lg"
             >
-              <option value="uz">O'zb</option>
+              <option value="uz">Uzb</option>
               <option value="ru">Рус</option>
               <option value="en">Eng</option>
             </select>

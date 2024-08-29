@@ -1,6 +1,6 @@
 function Button({ title, padding, onClick }) {
   const myStyle = {
-    backgroundColor: "red",
+    backgroundColor: "blue",
     padding: padding,
     borderRadius: "3rem",
     color: "#fff",

@@ -76,16 +76,10 @@
     }, 
     "faqs": {
      "heading": "Ko’p beriladigan savollar",
-      "question1": "Dasturlashni o'rganishning ahamiyati nimada?",
-      "question2": "Yangi dasturlash tilini o'rganishni qanday boshlash mumkin?",
-      "question3": "Dasturlash kurslari uchun qanday samarali o'rganish odatlari bor?",
-      "question4": "Algoritmlar va ma'lumotlar tuzilmalarini tushunish qanchalik muhim?",
-      "question5": "Nosozliklarni tuzatish dasturlashda qanday rol o'ynaydi?",
-      "answer1": "Dasturlashni o'rganish muhimdir, chunki u muammolarni hal qilish ko'nikmalarini rivojlantirishga, dasturiy ta'minot yaratishga va texnologiyani yaxshiroq tushunishga imkon beradi.",
-      "answer2": "Yangi dasturlash tilini o'rganishni boshlash uchun avvalo tilni tanlash, sifatli manbalar yoki qo'llanmalarni topish va muntazam ravishda kodlash amaliyotini bajarish kerak.",
-      "answer3": "Samarali o'rganish odatlariga aniq maqsadlarni belgilash, muntazam ravishda kodlash bilan shug'ullanish, o'rganish guruhlariga qo'shilish va o'rganganlaringizni qo'llash uchun real dunyo loyihalarida ishlash kiradi.",
-      "answer4": "Algoritmlar va ma'lumotlar tuzilmalarini tushunish juda muhim, chunki ular muammolarni samarali hal qilish va optimallashtirilgan kod yozish uchun asosiy hisoblanadi.",
-      "answer5": "Nosozliklarni tuzatish dasturlashda juda muhim ahamiyatga ega, chunki u koddagi xatolarni aniqlash va tuzatishga yordam beradi, dastur to'g'ri va samarali ishlashini ta'minlaydi."
+      "question1": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+      "question2": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+      "question3": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+      "question4": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?"
     },
     "message": {
       "heading": "Savollaringiz qoldimi?",
@@ -98,5 +92,10 @@
     },
     "modal": {
       "btnFree": "Darsga bepul yozilish"
+    },
+    "price": {
+      "pricedollar": "76.54 $",
+      "pricedrubl": "7039 Руб",
+      "pricedsum": "970.000 So'm"
     }
 }

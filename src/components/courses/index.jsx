@@ -21,7 +21,7 @@ function Courses(props) {
       desc: t("course.regularDesc"),
       duration: `5${t("course.month")}`,
       price: "560.000 so’m",
-      img: "/images/course.png",
+      img: "/images/course2.svg",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ function Courses(props) {
       desc: t("course.individualDesc"),
       duration: `5${t("course.month")}`,
       price: "1.870.000 so’m",
-      img: "/images/course.png",
+      img: "/images/course3.svg",
     },
   ];
 
@@ -46,9 +46,9 @@ function Courses(props) {
         {items.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col bg-gray-200 rounded-3xl overflow-hidden"
+            className="flex flex-col bg-blue-200 rounded-6xl overflow-hidden"
           >
-            <div className="h-48 lg:h-60 w-full">
+            <div className="h-32 lg:h-52 w-full">
               <img
                 src={item.img}
                 alt={item.type}
@@ -59,20 +59,20 @@ function Courses(props) {
             <div className="lg:px-5 px-4 py-4  flex flex-col justify-between flex-grow">
               <div className="flex items-center justify-between lg:mb-6 mb-3">
                 <p className="text-xl font-medium">{item.type}</p>
-                <button className="px-3 py-1 bg-teal-400 text-white text-xs rounded-md">{`${t(
+                <button className="px-3 py-1 bg-sky-400 text-white text-xs rounded-md">{`${t(
                   "course.durationLabel"
                 )} ${item.duration}`}</button>
               </div>
               <p className="lg:mb-6 mb-3 lg:text-base text-sm">{item.desc}</p>
               <div className="mt-auto flex items-center justify-between">
                 <button
-                  className="lg:px-8 px-5 lg:py-2 py-1 lg:text-base text-sm lg:rounded-3xl rounded-lg shadow-md shadow-slate-400 bg-teal-400 text-white
-         hover:bg-teal-500 active:scale-95 transition-all duration-300 ease-in"
+                  className="lg:px-8 px-5 lg:py-2 py-1 lg:text-base text-sm lg:rounded-3xl rounded-lg shadow-xl shadow-slate-400 bg-sky-400 text-white
+         hover:bg-sky-300 active:scale-95 transition-all duration-300 ease-in"
                   onClick={() => setSelectedItemId(item.id)}
                 >
                   {t("course.registerButton")}
                 </button>
-                <p className="text-teal-600 lg:text-lg md:text-base text-sm">
+                <p className="text-sky-400 lg:text-lg md:text-base text-sm">
                   {item.price} {t("course.perMonth")}
                 </p>
               </div>

@@ -14,7 +14,7 @@ function Showcase(props) {
         </p>
         <h2
           className="2xl:leading-[5rem] 2xl:text-6xl xl:leading-[4rem] xl:text-4xl leading-8
-        text-2xl font-medium xl:w-[65%] w-[90%] lg:my-[3rem] my-6 tracking-wider xl:text-left text-center"
+        text-2xl font-medium xl:w-[65%] w-[90%] lg:my-[2rem] my-4 tracking-wider xl:text-left text-left"
         >
           {t("showcase.title")}
         </h2>
@@ -31,18 +31,18 @@ function Showcase(props) {
         <div className="mt-5">
           <Link
             to={"courses"}
-            spy={false}
+            spy={true}
             smooth={true}
             offset={-navbarHeight}
             duration={1500}
             href={"courses"}
           >
-            <button className="lg:px-5 px-3 lg:py-5 py-3 lg:rounded-xl rounded-xl shadow-md shadow-slate-400 bg-blue-300 text-white hover:bg-red-500 active:scale-95">
+            <button className="lg:px-5 uppercase font-serif px-3 lg:py-5 py-3 lg:rounded-xl rounded-xl shadow-md shadow-slate-400 bg-blue-300 text-white hover:bg-red-500 active:scale-95">
               {t("showcase.buttonText")}
             </button>
           </Link>
 
-          <p className="mt-2 ml-1 lg:text-lg sm:text-base text-md">
+          <p className="mt-2 font-serif ml-1 lg:text-lg sm:text-base text-md">
             {t("showcase.promoText")}
           </p>
         </div>

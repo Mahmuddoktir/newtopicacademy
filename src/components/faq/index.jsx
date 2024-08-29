@@ -9,29 +9,20 @@ function Faq() {
   const data = [
     {
       id: 1,
-      question: t("faqs.question1"),
-      answer: t("faqs.answer1"),
+      question: t("faqs.question1")
     },
     {
       id: 2,
-      question: t("faqs.question2"),
-      answer: t("faqs.answer2"),
+      question: t("faqs.question2")
     },
     {
       id: 3,
-      question: t("faqs.question3"),
-      answer: t("faqs.answer3"),
+      question: t("faqs.question3")
     },
     {
       id: 4,
-      question: t("faqs.question4"),
-      answer: t("faqs.answer4"),
-    },
-    {
-      id: 5,
-      question: t("faqs.question5"),
-      answer: t("faqs.answer5"),
-    },
+      question: t("faqs.question4")
+    }
   ];
 
   const handleAccordion = (id) => {
@@ -46,13 +37,13 @@ function Faq() {
   };
 
   return (
-    <div id="faq" className="lg:my-16 md:my-8 my-5">
+    <div id="faq" className="lg:my-10 md:my-8 my-5">
       <h2 className="lg:text-5xl text-2xl font-bold text-center lg:mb-10">
         {t("faqs.heading")}
       </h2>
       <div className="xl:px-40 space-y-4 p-6">
         {data.map((item, index) => (
-          <div key={item.id} className="shadow-lg rounded-lg overflow-hidden">
+          <div key={item.id} className="shadow-lg rounded-md overflow-hidden">
             <div
               className="flex justify-between items-center lg:text-xl bg-gray-100 hover:bg-gray-200 transition-all cursor-pointer lg:p-5 p-3 py-4"
               onClick={() => handleAccordion(item.id)}

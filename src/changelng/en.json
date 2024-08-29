@@ -76,16 +76,10 @@
     },
     "faqs": {
       "heading": "Frequently asked questions",
-      "question1": "What is the importance of learning programming?",
-      "question2": "How can one start learning a new programming language?",
-      "question3": "What are some effective study habits for programming courses?",
-      "question4": "How important is it to understand algorithms and data structures?",
-      "question5": "What role does debugging play in programming?",
-      "answer1": "Learning programming is crucial as it enables you to develop problem-solving skills, create software, and understand technology better.",
-      "answer2": "To start learning a new programming language, you should first choose a language, find quality resources or tutorials, and practice coding regularly.",
-      "answer3": "Effective study habits include setting specific goals, practicing coding consistently, joining study groups, and working on real-world projects to apply what you've learned.",
-      "answer4": "Understanding algorithms and data structures is very important as they are fundamental to solving problems efficiently and writing optimized code.",
-      "answer5": "Debugging is essential in programming as it helps identify and fix errors in the code, ensuring that the program runs correctly and efficiently."
+      "question1": "Do you provide study materials or do I have to find them myself?",
+      "question2": "Do you provide study materials or do I have to find them myself?",
+      "question3": "Do you provide study materials or do I have to find them myself?",
+      "question4": "Do you provide study materials or do I have to find them myself?"
     },
     "message": {
     "heading": "Do you have any questions?",

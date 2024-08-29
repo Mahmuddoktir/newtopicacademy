@@ -24,7 +24,7 @@ function Footer(props) {
   ];
 
   return (
-    <footer className="bg-gray-800 text-white lg:rounded-2xl md:mb-4 mx-0 xl:mx-16 md:mx-6 md:rounded-md p-6 md:p-10">
+    <footer className="bg-sky-200 text-white lg:rounded-xl md:mb-4 mx-0 xl:mx-16 md:mx-6 md:rounded-md p-6 md:p-10">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <div className="flex justify-center md:justify-start">
           <a href="showcase">
