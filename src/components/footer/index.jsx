@@ -17,9 +17,9 @@ function Footer(props) {
   ];
 
   const socialMedia = [
-    { icon: <FaInstagram />, link: "https://instagram.com" },
-    { icon: <PiTelegramLogoLight />, link: "https://telegram.org" },
-    { icon: <RiYoutubeLine />, link: "https://youtube.com" },
+    { icon: <FaInstagram />, link: "https://instagram/@it_time_academy" },
+    { icon: <PiTelegramLogoLight />, link: "https://t.me/mahmuddevlop" },
+    { icon: <RiYoutubeLine />, link: "http://www.youtube.com/@it-time-academy" },
     { icon: <LuPhone />, link: "+998901234567" },
   ];
 
