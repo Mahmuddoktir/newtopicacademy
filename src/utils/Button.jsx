@@ -1,6 +1,6 @@
 function Button({ title, padding, onClick }) {
   const myStyle = {
-    backgroundColor: "blue",
+    backgroundColor: "teal",
     padding: padding,
     borderRadius: "3rem",
     color: "#fff",
@@ -11,7 +11,7 @@ function Button({ title, padding, onClick }) {
   };
 
   const hoverStyle = {
-    backgroundColor: "blue",
+    backgroundColor: "teal",
     boxShadow: "0 6px 12px rgba(0, 0, 0, 0.2)",
     transform: "translateY(-2px)",
   };

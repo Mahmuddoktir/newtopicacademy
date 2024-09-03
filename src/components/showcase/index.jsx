@@ -37,7 +37,7 @@ function Showcase(props) {
             duration={1500}
             href={"courses"}
           >
-            <button className="lg:px-5 uppercase font-serif px-3 lg:py-5 py-3 lg:rounded-xl rounded-xl shadow-md shadow-slate-400 bg-blue-300 text-white hover:bg-red-500 active:scale-95">
+            <button className="bg-teal-400 lg:px-5 uppercase font-helvetica px-3 lg:py-5 py-3 lg:rounded-xl rounded-xl shadow-md shadow-slate-400 text-white hover:bg-teal-300 active:scale-95">
               {t("showcase.buttonText")}
             </button>
           </Link>

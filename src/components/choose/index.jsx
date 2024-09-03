@@ -26,7 +26,7 @@ function Choose(props) {
       <div className="grid grid-cols-2 lg:grid-cols-3 lg:gap-4 gap-2 lg:mt-[6rem] mt-6">
         {items.map((item, index) => (
           <div key={index} className="flex flex-col items-center text-center">
-            <div className="bg-blue-100 lg:w-[10rem] lg:h-[10rem] w-[3rem] h-[3rem] rounded-md lg:mb-4 mb-2 flex justify-center items-center">
+            <div className="bg-teal-100 lg:w-[10rem] lg:h-[10rem] w-[3rem] h-[3rem] rounded-md lg:mb-4 mb-2 flex justify-center items-center">
               <img
                 src={item.img}
                 alt={item.title}
@@ -41,8 +41,8 @@ function Choose(props) {
       </div>
       <div className="flex justify-center mt-10">
         <button
-          className="lg:px-24 bg-sky-400 px-16 lg:py-6 py-3 lg:rounded-2xl rounded-sm shadow-md shadow-slate-400 bg-teal-400 text-white
-         hover:bg-sky-300 active:scale-95"
+          className="lg:px-24 bg-teal-400 px-16 lg:py-6 py-3 lg:rounded-2xl rounded-sm shadow-md shadow-slate-400 bg-teal-400 text-white
+         hover:bg-teal-300 active:scale-95"
           onClick={() => setOpen(false)}
         >
           {t("choose.button")}

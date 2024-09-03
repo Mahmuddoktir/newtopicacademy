@@ -24,7 +24,7 @@ function Success(props) {
       <div className="flex flex-col lg:flex-row w-full lg:items-start justify-between lg:gap-[5rem] gap-[2rem] lg:mt-16">
         <div className=" lg:text-left">
           <p className="lg:text-lg md:text-base text-sm lg:mb-8 mb-4">
-            <span className="text-sky-300">TOPIK academy consulting</span>{" "}
+            <span className="text-teal-300">TOPIK academy consulting</span>{" "}
             {t("success.description")}
           </p>
           <div className="lg:text-left text-center">
@@ -32,8 +32,8 @@ function Success(props) {
               {t("success.consultationInfo")}
             </span>
             <button
-              className="lg:px-12 px-8 lg:py-4 py-6 lg:rounded-3xl rounded-lg shadow-md shadow-slate-400 bg-sky-400 text-white
-         hover:bg-sky-300 active:scale-95 transition-all duration-300 ease-in"
+              className="lg:px-12 px-8 lg:py-4 py-6 lg:rounded-3xl rounded-lg shadow-md shadow-slate-400 bg-teal-400 text-white
+         hover:bg-teal-300 active:scale-95 transition-all duration-300 ease-in"
               onClick={() => setOpen(true)}
             >
               {t("success.applyButton")}
