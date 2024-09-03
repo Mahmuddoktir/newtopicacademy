@@ -12,9 +12,9 @@ function SendingMsg(props) {
     setSuccess(false);
     setError("");
 
-    const token = "https://t.me/mahmuddevlop";
+    const token = "7389531994:AAE3VRO4wVMfCkUzx7JNQjyATf8h28ragjE";
     const chatId = -1002133487518;
-    const url = `https://telegram.org${token}/sendMessage`;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
     const name = e.target.elements.name.value;
     const tel = e.target.elements.tel.value;

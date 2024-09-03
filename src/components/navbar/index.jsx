@@ -37,9 +37,9 @@ function Navbar() {
     <div
       id="navbar"
       ref={navbarRef}
-      className="w-full fixed lg:py-0 top-0 left-0 lg:h-13 bg-white shadow-md z-10"
+      className="w-full fixed lg:py-0 top-0 left-0 lg:h-13 bg-white shadow-md z-10 md:bg-white md:h-25"
     >
-      <div className="h-8 lg:flex lg:justify-between lg:items-center lg:py-14 px-14 py-6">
+      <div className="h-8 lg:flex lg:justify-between lg:items-center lg:py-14 px-14 py-6 ">
         <div className="navbar-logo flex items-center py-5 gap-7 px-10">
           <a href="logos">
             <img src="/images/logo.png" alt="logo" className="h-10" />

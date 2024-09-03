@@ -24,7 +24,7 @@ function Footer(props) {
   ];
 
   return (
-    <footer className="bg-sky-200 text-white lg:rounded-xl md:mb-4 mx-0 xl:mx-16 md:mx-6 md:rounded-md p-6 md:p-10">
+    <footer className="bg-teal-100 text-gray lg:rounded-xl md:mb-4 mx-0 xl:mx-16 md:mx-6 md:rounded-md p-6 md:p-10">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
         <div className="flex justify-center md:justify-start">
           <a href="showcase">
@@ -45,7 +45,7 @@ function Footer(props) {
                 offset={-navbarHeight}
                 duration={1500}
                 href={item.link}
-                className=" hover:text-gray-400 transition-colors duration-500 cursor-pointer"
+                className=" hover:text-gray-700 transition-colors duration-500 cursor-pointer"
               >
                 {item.title}
               </Link>
@@ -58,7 +58,7 @@ function Footer(props) {
               <a
                 rel="noopener noreferrer"
                 href={item.link}
-                className="hover:text-gray-300 transition-colors duration-300"
+                className="hover:text-gray-700 transition-colors duration-300"
                 target="_blank"
               >
                 {item.icon}
