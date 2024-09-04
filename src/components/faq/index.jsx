@@ -9,19 +9,24 @@ function Faq() {
   const data = [
     {
       id: 1,
-      question: t("faqs.question1")
+      question: t("faqs.question1"),
+      answer: t("faqs.answer1"),
     },
     {
       id: 2,
-      question: t("faqs.question2")
+      question: t("faqs.question2"),
+      answer: t("faqs.answer2"),
     },
     {
       id: 3,
-      question: t("faqs.question3")
+      question: t("faqs.question3"),
+      answer: t("faqs.answer3")
+
     },
     {
       id: 4,
-      question: t("faqs.question4")
+      question: t("faqs.question4"),
+      answer: t("faqs.answer4"),
     }
   ];
 
@@ -49,7 +54,7 @@ function Faq() {
               onClick={() => handleAccordion(item.id)}
             >
               <p className="font-medium lg:text-xl">{item.question}</p>
-              <span className="text-gray-600 lg:text-xl text-lg ml-3">
+              <span className="text-gray-600 font-medium lg:text-xl text-lg ml-3">
                 {selected === item.id ? "-" : "+"}
               </span>
             </div>

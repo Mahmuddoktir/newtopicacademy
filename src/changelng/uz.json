@@ -79,7 +79,11 @@
       "question1": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
       "question2": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
       "question3": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-      "question4": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?"
+      "question4": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+      "answer1": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
+      "answer2": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
+      "answer3": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
+      "answer4": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi"
     },
     "message": {
       "heading": "Savollaringiz qoldimi?",

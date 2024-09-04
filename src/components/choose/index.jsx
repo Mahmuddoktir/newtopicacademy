@@ -43,7 +43,7 @@ function Choose(props) {
         <button
           className="lg:px-24 bg-teal-400 px-16 lg:py-6 py-3 lg:rounded-2xl rounded-sm shadow-md shadow-slate-400 bg-teal-400 text-white
          hover:bg-teal-300 active:scale-95"
-          onClick={() => setOpen(false)}
+          onClick={() => setOpen(true)}
         >
           {t("choose.button")}
         </button>
