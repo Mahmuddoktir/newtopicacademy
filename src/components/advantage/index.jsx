@@ -36,7 +36,7 @@ function Advantage(props) {
       <h2 className="lg:text-5xl text-2xl font-medium text-center">
         {t("advantage.header")}
       </h2>
-      <div className="lg:mt-14 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-16 gap-10">
+      <div className="lg:mt-14 mt-10 grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-16 gap-10">
         {items.map((item, index) => (
           <div className="relative" key={index}>
             <div className="lg:px-6 px-4 lg:py-10 py-6 rounded-3xl bg-teal-100 lg:min-h-64 md:min-h-40 sm:min-h-36">

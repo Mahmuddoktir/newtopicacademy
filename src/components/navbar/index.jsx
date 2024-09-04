@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
+import { FaTimes } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -21,6 +23,13 @@ function Navbar() {
   };
 
   useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  useEffect(() => {
     const handleClickOutside = (e) => {
       if (navbarRef.current && !navbarRef.current.contains(e.target)) {
         setOpen(false);
@@ -37,7 +46,7 @@ function Navbar() {
     <div
       id="navbar"
       ref={navbarRef}
-      className="w-full fixed lg:py-0 top-0 left-0 lg:h-13 bg-white shadow-md z-10 md:bg-white md:h-25"
+      className="w-full fixed lg:py-0 top-0 left-0 hidden-md flex-md bg-white-md lg:h-13 bg-white shadow-md z-10 md:bg-white"
     >
       <div className="h-8 lg:flex lg:justify-between lg:items-center lg:py-14 px-14 py-6 ">
         <div className="navbar-logo flex items-center py-5 gap-7 px-10">
@@ -45,6 +54,19 @@ function Navbar() {
             <img src="/images/logo.png" alt="logo" className="h-10" />
           </a>
           <p className="w-[10rem] text-sm lg:inline-block">{t("logoText")}</p>
+        </div>
+
+        <div className="lg:hidden">
+          <div
+            onClick={() => setOpen(!open)}
+            className="text-3xl absolute top-6 right-8 cursor-pointer transition-transform duration-500 transform"
+          >
+            {open ? (
+              <FaTimes className="transition-opacity duration-300 ease-in-out opacity-100" />
+            ) : (
+              <GiHamburgerMenu className="transition-opacity duration-300 ease-in-out opacity-100" />
+            )}
+          </div>
         </div>
 
         <ul
