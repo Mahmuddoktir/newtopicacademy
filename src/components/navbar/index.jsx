@@ -66,6 +66,7 @@ function Navbar() {
                 className="text-gray-700 hover:text-gray-400 transition-colors duration-500"
                 onClick={() => setOpen(false)} // Close menu on click
               >
+                
                 {item.title}
               </Link>
             </li>
@@ -78,7 +79,7 @@ function Navbar() {
             >
               <p>+998 (33) 306 0097</p>
               <p>{t("connectNow")}</p>
-            </a>
+            </a> 
           </li>
           <li className="lg:mb-0 mb-4">
             <select
@@ -89,6 +90,11 @@ function Navbar() {
               <option value="ru">Рус</option>
               <option value="en">Eng</option>
             </select>
+            <div id="burger" className="hidden pt-3 ml-7">
+            <span className="flex h-1  w-8 bg-teal-300 mb-1"></span>
+            <span className="flex h-1  w-8 bg-teal-300 mt-1"></span>
+            <span className="flex h-1  w-8 bg-teal-300 mt-1"></span>
+            </div>
           </li>
         </ul>
       </div>
