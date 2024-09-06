@@ -42,7 +42,7 @@ function Success(props) {
           </div>
         </div>
 
-        <div className="border lg:block z-[-1]">
+        <div className="lg:block z-[-1]">
           <Marquee gradient className="w-screen absolute left-0 ">
             {repeatedImg.map((item, index) => (
               <img key={index} src={item} alt={item} className="mx-8" />

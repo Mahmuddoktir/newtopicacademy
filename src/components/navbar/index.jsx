@@ -46,7 +46,7 @@ function Navbar() {
     <div
       id="navbar"
       ref={navbarRef}
-      className="container w-full fixed top-0 shadow-md z-10"
+      className="container w-full fixed bg-white top-0 shadow-md z-10"
     >
       <div className="lg:flex lg:justify-between lg:items-center lg:px-10 px-7 py-4">
         <div className="navbar-logo flex items-center gap-5">
