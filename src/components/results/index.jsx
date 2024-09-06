@@ -8,7 +8,8 @@ function Results(props) {
   const repeatedImg = Array(10).fill(url);
 
   return (
-    <div id="results" className="lg:py-6">
+    <div className="container">
+      <div id="results" className="w-full ">
       <h2 className="lg:text-4xl text-2xl px-0 text-center font-semibold">
         {t("result.heading")}
       </h2>
@@ -28,6 +29,7 @@ function Results(props) {
           ))}
         </Marquee>
       </div>
+    </div>
     </div>
   );
 }

@@ -46,12 +46,12 @@ function Navbar() {
     <div
       id="navbar"
       ref={navbarRef}
-      className="w-full fixed lg:py-0 top-0 left-0 hidden-md flex-md bg-white-md lg:h-13 bg-white shadow-md z-10 md:bg-white"
+      className="container w-full fixed top-0 shadow-md z-10"
     >
-      <div className="h-8 lg:flex lg:justify-between lg:items-center lg:py-14 px-14 py-6 ">
-        <div className="navbar-logo flex items-center py-5 gap-7 px-10">
+      <div className="lg:flex lg:justify-between lg:items-center lg:px-10 px-7 py-4">
+        <div className="navbar-logo flex items-center gap-5">
           <a href="logos">
-            <img src="/images/logo.png" alt="logo" className="h-10" />
+            <img src="/images/logo.png" alt="logo" className="h-12" />
           </a>
           <p className="w-[10rem] text-sm lg:inline-block">{t("logoText")}</p>
         </div>

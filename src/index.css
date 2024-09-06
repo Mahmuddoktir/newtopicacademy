@@ -10,3 +10,9 @@ body.no-scroll {
   overflow: hidden;
   padding-right: var(--scrollbar-width);
 }
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 0 20px;
+  border: 1px solid red;
+}

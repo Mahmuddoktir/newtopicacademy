@@ -13,7 +13,7 @@ import Video from "./components/video";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <Showcase />
       <Choose />

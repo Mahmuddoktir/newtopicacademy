@@ -14,7 +14,8 @@ function Success(props) {
   const paragraph = t("choose.modalParagraph");
 
   return (
-    <div className="lg:my-[3rem] my-8 lg:ml-[6rem] lg:px-0 px-6 flex flex-col items-center justify-center ">
+    <div className="container">
+      <div className="overflow-x-hidden lg:my-[3rem] my-8 lg:ml-[1rem] lg:px-0 px-1 flex flex-col items-center justify-center ">
       <div className="flex items-center justify-center lg:mb-8 mb-4">
         <h2 className="lg:text-5xl lg:leading-[3rem] text-2xl leading-[2rem] text-center font-medium lg:px-10 px-8">
           {t("success.title")}
@@ -41,10 +42,10 @@ function Success(props) {
           </div>
         </div>
 
-        <div className="w-[60%] hidden lg:block">
-          <Marquee gradient>
+        <div className="border lg:block z-[-1]">
+          <Marquee gradient className="w-screen absolute left-0 ">
             {repeatedImg.map((item, index) => (
-              <img key={index} src={item} alt={item} className="mx-6" />
+              <img key={index} src={item} alt={item} className="mx-8" />
             ))}
           </Marquee>
         </div>
@@ -56,6 +57,7 @@ function Success(props) {
           paragraph={paragraph}
         />
       )}
+    </div>
     </div>
   );
 }

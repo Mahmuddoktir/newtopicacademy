@@ -9,7 +9,7 @@ function Scholarship(props) {
       <h2 className="lg:text-5xl text-2xl text-center leading-8 font-medium">
         {t("scholarship.title")}
       </h2>
-      <div className="lg:mt-[3rem] mt-8 lg:flex lg:items-center lg:gap-[1rem]">
+      <div className="lg:mt-[3rem] mt-2 lg:flex lg:items-center lg:gap-[1rem]">
         <div className="lg:w-1/2 sm:w-2/3 w-full flex justify-center lg:justify-start">
           <img
             src="/images/scholarship.png"
