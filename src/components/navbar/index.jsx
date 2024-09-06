@@ -77,7 +77,7 @@ function Navbar() {
           }`}
         >
           {list.map((item, index) => (
-            <li key={index} className="lg:text-lg text-base lg:my-0 my-4">
+            <li key={index} className="lg:text-lg md:justify-left text-base lg:my-0 my-4">
               <Link
                 to={item.link}
                 spy={true}

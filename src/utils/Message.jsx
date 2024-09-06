@@ -12,8 +12,8 @@ function SendingMsg(props) {
     setSuccess(false);
     setError("");
 
-    const token = "7389531994:AAE3VRO4wVMfCkUzx7JNQjyATf8h28ragjE";
-    const chatId = -1002133487518;
+    const token = "7345385610:AAFWT5030Xi6xQlj1S7yU_taceVQufg6FMM";
+    const chatId =  -1002221901533;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
     const name = e.target.elements.name.value;

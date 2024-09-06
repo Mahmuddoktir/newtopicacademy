@@ -77,9 +77,13 @@
     "faqs": {
       "heading": "Frequently asked questions",
       "question1": "Do you provide study materials or do I have to find them myself?",
-      "question2": "Do you provide study materials or do I have to find them myself?",
-      "question3": "Do you provide study materials or do I have to find them myself?",
-      "question4": "Do you provide study materials or do I have to find them myself?"
+      "question2": "Can the study period be extended and Korean will give me ",
+      "question3": "Is it possible to study and work in Korea?",
+      "question4": "Will we be given an international diploma or is it for the country of South Korea?",
+      "answer1": "We provide all the information and you can search for yourself",
+      "answer2": "Yes The study period can be extended depending on you Korean will give you a lot",
+      "answer3": "Yes, of course, he can work while studying. The working hours are 8 hours a day",
+      "answer4": "You will be awarded an internationally recognized and top 1000 degree"
     },
     "message": {
     "heading": "Do you have any questions?",

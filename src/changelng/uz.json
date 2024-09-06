@@ -77,13 +77,13 @@
     "faqs": {
      "heading": "Ko’p beriladigan savollar",
       "question1": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-      "question2": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-      "question3": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
-      "question4": "O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+      "question2": "O'qish Davri Uzoq muddatga cho'zilishi mumkinmi va koreys tili menga nma beradi",
+      "question3": "Koreyada ham o'qish ham ishlash mumkinmi",
+      "question4": "Bizga xalqaro diplom beriladimi yoki aynan janubiy koreya davlati uchunmi",
       "answer1": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
-      "answer2": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
-      "answer3": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi",
-      "answer4": " O'zimiz barcha malumotlarni beramiz va O'zingiz ham izlansangiz bo'ladi"
+      "answer2": "Ha O'qish davri cho'zilishi mumkin o'zingizga bog'liq koreys tili sizga kop narsa beradi ",
+      "answer3": "Ha Albatta ham uqib ham ishlasa buladi ish soati bir kunda 8 soat",
+      "answer4": " Sizga xalqaro tan olingan va top 1000 talikdagi daraja beriladi"
     },
     "message": {
       "heading": "Savollaringiz qoldimi?",
