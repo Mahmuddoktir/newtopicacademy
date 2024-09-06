@@ -72,7 +72,7 @@ function Navbar() {
         <ul
           className={`lg:flex lg:items-center lg:h-12 lg:py-0 lg:gap-10 bg-white lg:static absolute left-0 w-full lg:w-auto lg:pl-0 pl-7 transition-all duration-500 ease-in-out ${
             open
-              ? "top-8 opacity-100"
+              ? "top-4 opacity-100"
               : "top-[-490px] opacity-1 lg:opacity-100"
           }`}
         >
@@ -88,6 +88,7 @@ function Navbar() {
                 className="text-gray-700 hover:text-gray-400 transition-colors duration-500"
                 onClick={() => setOpen(false)} // Close menu on click
               >
+                
                 
                 {item.title}
               </Link>
