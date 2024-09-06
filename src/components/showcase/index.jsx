@@ -6,8 +6,8 @@ function Showcase(props) {
   const navbarHeight = 84;
 
   return (
-    <div className="mt-[15rem] md:ml-10 ml-3 relative overflow-hidden">
-      <div className="xl:block flex flex-col items-center justify-center">
+    <div className="m-0-auto p-0 w-[100%] mt-[10rem] md:ml-10 ml-1 relative overflow-hidden">
+      <div className="w-[100%] m-0-auto xl:block flex flex-col items-center justify-center">
         <p className="flex items-center gap-10">
           <img src="/images/Rectangle.png" alt="sa" className="h-[2px] w-15" />
           <span className="lg:text-xl text-sm">{t("showcase.subtitle")}</span>

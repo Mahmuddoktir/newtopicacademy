@@ -19,7 +19,7 @@ function Choose(props) {
   const paragraph = t("choose.modalParagraph");
 
   return (
-    <div className="relative lg:px-[16rem] lg:py-[16rem] py-10 px-12">
+    <div className="relative lg:px-[16rem] lg:py-[8rem] py-10 px-12">
       <h2 className="text-center lg:text-5xl text-2xl font-bold lg:mb-15">
         {t("choose.heading")}
       </h2>

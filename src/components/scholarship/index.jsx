@@ -5,7 +5,7 @@ function Scholarship(props) {
   const { t } = useTranslation();
 
   return (
-    <div className="lg:my-[4rem] my-4 mb-25 lg:px-[6rem] px-12">
+    <div className="lg:py-1 mb-5 lg:px-[6rem] px-12">
       <h2 className="lg:text-5xl text-2xl text-center leading-8 font-medium">
         {t("scholarship.title")}
       </h2>
