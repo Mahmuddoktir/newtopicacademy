@@ -56,19 +56,6 @@ function Navbar() {
           <p className="w-[10rem] text-sm lg:inline-block">{t("logoText")}</p>
         </div>
 
-        <div className="lg:hidden">
-          <div
-            onClick={() => setOpen(!open)}
-            className="text-3xl absolute top-6 right-8 cursor-pointer transition-transform duration-500 transform"
-          >
-            {open ? (
-              <FaTimes className="transition-opacity duration-300 ease-in-out opacity-100" />
-            ) : (
-              <GiHamburgerMenu className="transition-opacity duration-300 ease-in-out opacity-100" />
-            )}
-          </div>
-        </div>
-
         <ul
           className={`lg:flex lg:items-center lg:h-12 lg:py-0 lg:gap-10 bg-white lg:static absolute left-0 w-full lg:w-auto lg:pl-0 pl-7 transition-all duration-500 ease-in-out ${
             open
@@ -121,6 +108,18 @@ function Navbar() {
           </li>
         </ul>
       </div>
+      <div className="lg:hidden">
+          <div
+            onClick={() => setOpen(!open)}
+            className="text-3xl absolute top-6 right-8 cursor-pointer transition-transform duration-500 transform"
+          >
+            {open ? (
+              <FaTimes className="transition-opacity duration-300 ease-in-out opacity-100" />
+            ) : (
+              <GiHamburgerMenu className="transition-opacity duration-300 ease-in-out opacity-100" />
+            )}
+          </div>
+        </div>
     </div>
   );
 }
