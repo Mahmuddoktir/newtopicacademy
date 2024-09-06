@@ -19,8 +19,8 @@ function Showcase(props) {
         >
           {t("showcase.title")}
         </h2>
-        <div className="sm:flex sm:gap-10 lg:text-md sm:text-base text-md ">
-          <p className="flex items-center lg:gap-5 gap-1 w-[17rem]">
+        <div className="sm:flex sm:gap-2 lg:text-md sm:text-base text-md ">
+          <p className="flex items-center lg:gap-1 gap-1 w-[12rem]">
             <img src="/images/barg1.png" className="lg:h-5 h-5" alt="sa" />
             {t("showcase.benefit1")}
           </p>
